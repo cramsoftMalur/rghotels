@@ -1,0 +1,389 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>RG HOTELS AND RESORT</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.custom.css">
+<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery.min.js"></script>
+
+
+
+
+
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+  <script>
+  $(function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+ 
+    $( "#opener" ).click(function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  });
+  </script>
+
+
+
+
+
+
+
+
+</head>
+<body style="background-color:#2A2E33">
+
+<!--header starts-->
+<div class="header">
+	 <div class="top-header">
+		 <div class="container">
+			 <div class="logo">
+				 <a href="index.html"><img src="images/logo.png" /></a>
+			 </div>
+			 <span class="menu"> </span>
+			 <div class="m-clear"></div>
+			 <div class="top-menu">
+				<ul>
+					 <li class="active"><a href="index.html">START</a></li>
+					 <li><a class="scroll" href="facilities.html">FACILITIES</a></li>
+					 <li><a class="scroll" href="restaurant.html">ROOM TYPES</a></li>
+					 <li><a class="scroll" href="conference.html">CONFERENCE</a></li>
+					 <li><a class="scroll" href="booking.html">BOOKING</a></li>
+					 <li><a class="scroll" href="contact.html">CONTACT US</a></li>
+				</ul>
+				<script>
+					$("span.menu").click(function(){
+						$(".top-menu ul").slideToggle(200);
+					});
+				</script>
+			 </div>
+			 <div class="clearfix"></div>
+		  </div>
+	  </div>
+	  <div class="banner">
+			<div class="banner-info text-center">
+			<h3><label>Welcome</label></h3>
+			<h1>RG HOTELS AND RESORT</h1>
+			<span></span>
+			<ul>
+			 <li><a class="scroll" href="#">HOTEL</a><i class="line"></i></li>
+			 <li><a class="scroll" href="#">BANQUATE HALL</a><i class="line2"></i></li>	
+			 <li><a class="scroll" href="#">FINE DINING</a><i class="line2"></i></li>
+			 <li><a class="scroll" href="#">SPA</a><i class="line2"></i></li>
+			 <li><a class="scroll" href="#">SWIMMING POOL</a><i class="line2"></i></li>			 
+			 <li><a class="scroll" href="#">GAMES</a><i class="line2"></i></li>
+			 <li> <a class="scroll" href="#">CHILDREN'S PARK</a> </li>
+			 <div class="clearfix"></div>
+			</ul>
+			</div>
+	  </div>
+</div>
+<!-- -strat-date-piker -->
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<script src="js/jquery-ui.js"></script>
+		  <script>
+				  $(function() {
+				    $( "#datepicker,#datepicker1" ).datepicker();
+				  });
+		  </script>
+<!-- -/End-date-piker -->
+<link type="text/css" rel="stylesheet" href="css/JFGrid.css" />
+<link type="text/css" rel="stylesheet" href="css/JFFormStyle-1.css" />
+<script type="text/javascript" src="js/JFCore.js"></script>
+<script type="text/javascript" src="js/JFForms.js"></script>
+<!-- Set here the key for your domain in order to hide the watermark on the web server -->
+<script type="text/javascript">
+	(function() {
+		JC.init({
+			domainKey: ''
+		});
+	})();
+</script>
+<!-- <div class="online_reservation">
+		   <div class="b_room">
+			  <div class="booking_room">
+				  <div class="reservation">
+					  <ul>				
+						 <li  class="span1_of_1 left">
+							 <h5>Arrival</h5>
+							 <div class="book_date">
+								 <form>
+								 <input class="date" id="datepicker" type="text" value="2/08/2013" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '2/08/2013';}">
+								 </form>
+							 </div>					
+						 </li>
+						 <li  class="span1_of_1 left">
+							 <h5>Depature</h5>
+							 <div class="book_date">
+							 <form>
+								<input class="date" id="datepicker1" type="text" value="22/08/2013" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '22/08/2013';}">
+							 </form>
+						     </div>		
+						 </li>
+						 <li class="span1_of_1">
+							 <h5>Room type</h5> -->
+<!-- -start section_room -->
+							 <!-- <div class="section_room">
+							      <select id="country" onchange="change_country(this.value)" class="frm-field required">
+										<option value="null">Deluxe room</option>
+										<option value="null">Suite room</option>         
+										<option value="AX">Executive</option>
+										
+							      </select>
+							 </div>	
+						 </li>
+						 <li class="span1_of_3">
+								<div class="date_btn">
+									<form>
+										<input type="submit" value="View Prices" />
+									</form>
+								</div>
+						 </li>
+						 <div class="clearfix"></div>
+					 </ul>
+				 </div>
+			  </div>
+				<div class="clearfix"></div>
+		  </div>
+	  </div>
+</div>  -->
+<!--
+<div class="package text-center">
+	 <div class="container">
+		 <h3>Book A Package</h3>
+		 <p style=""><i>Please fill out the form above to book one of the available rooms.. We will try to fulfill your wishes</i></p>
+		<!-- requried-jsfiles-for owl -->
+				<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : true,
+							        navigationText :  false,
+							        pagination : false,
+							      });
+							    });
+							    </script>
+			<!-- requried-jsfiles-for owl -->
+		  <div id="owl-demo" class="owl-carousel">
+			  <div class="item text-center image-grid">	
+					<ul>
+					 <li><img src="images/1.jpg" alt=""></li>			    
+					 <li><img src="images/2.jpg" alt=""></li>				 
+					 <li><img src="images/3.jpg" alt=""></li>
+					 </ul>
+			  </div>
+			  <div class="item text-center image-grid">	
+					<ul>
+					<li> <img src="images/3.jpg" alt=""></li>			    
+					 <li><img src="images/4.jpg" alt=""></li>				 
+					 <li><img src="images/5.jpg" alt=""></li>
+					 </ul>
+			  </div>
+			  <div class="item text-center image-grid">	
+					<ul>
+					<li> <img src="images/6.jpg" alt=""></li>			    
+					 <li><img src="images/2.jpg" alt=""></li>				 
+					 <li><img src="images/8.jpg" alt=""></li>
+					 </ul>
+			  </div>
+		  </div> 		
+	 </div>
+</div>
+<!---->
+<!---->
+<div class="rooms text-center">
+	 <div class="container">
+		 <h3>Our Room Types</h3>
+		 <p><i>You can choose from 3 different categories:Deluxe, Executive Suite and Premium Suite. Most important distinguishing characteristics are the private terrace, separate sleeping room and room size.</i></p>
+		 <div class="room-grids">
+			 <!-- <div class="col-md-6 room-sec">
+				 <img src="images/pic1.jpg" alt="" style="width:365px;height:245px" />
+				 <h4>Standard  Room</h4>
+				 <p></p>
+				 <div class="items">
+					 <li><a href="#"><span class="img1"> </span></a></li>
+					 <li><a href="#"><span class="img2"> </span></a></li>
+					 <li><a href="#"><span class="img3"> </span></a></li>
+					 <li><a href="#"><span class="img4"> </span></a></li>
+					 <li><a href="#"><span class="img5"> </span></a></li>
+					 <li><a href="#"><span class="img6"> </span></a></li>
+				 </div>
+			 </div> -->
+			 
+			 
+
+			 <div class="col-md-4 room-sec">
+			 	 <div class="caption">
+					<span>&#8377; 2000 </span>
+
+					<a href="contact.html">Price / (1 Day/Night)</a>
+				 </div>
+				 <img src="images/pic5.jpg" alt="" class="picimages" style=""/>
+				 <h4>Deluxe Room</h4>
+				 <p>Retreat to Tower 3 in a 39-square metre space with limited views at a good value. Deluxe Room with City View guarantees a piece of Malur's best view.</p>
+				 <div class="items">					
+					 <li><a href="#"><span class="img1"> </span></a></li>
+					 <li><a href="#"><span class="img2"> </span></a></li>
+					 <li><a href="#"><span class="img3"> </span></a></li>
+					 <li><a href="#"><span class="img4"> </span></a></li>
+					 <li><a href="#"><span class="img5"> </span></a></li>
+					 <li><a href="#"><span class="img6"> </span></a></li>
+				 </div>
+			 </div>
+			 <div class="col-md-4 room-sec">
+			 	 <div class="caption">
+					<span>&#8377; 3000</span>
+					<a href="contact.html">Price / (1 Day/Night)</a>
+				 </div>
+				 <img src="images/pic6.jpg" alt="" class="picimages" />
+				 <h4>Executive Room</h4>
+				 <p>Retreat to Tower 3 in a 39-square metre space with limited views at a good value. Deluxe Room with City View guarantees a piece of Malur's best view.</p>
+				 <div class="items">
+					 <li><a href="#"><span class="img1"> </span></a></li>
+					 <li><a href="#"><span class="img2"> </span></a></li>
+					 <li><a href="#"><span class="img3"> </span></a></li>
+					 <li><a href="#"><span class="img4"> </span></a></li>
+					 <li><a href="#"><span class="img5"> </span></a></li>
+					 <li><a href="#"><span class="img6"> </span></a></li>
+				 </div>
+			 </div>
+			 <div class="clearfix"></div>
+			 <!-- <div class="col-md-4 room-sec">
+				 <img src="images/pic4.jpg" alt="" style="width:365px;height:245px"/>
+				 <h4>Standard Single Room</h4>
+				 <p></p>
+				 <div class="items">
+					 <li><a href="#"><span class="img1"> </span></a></li>
+					 <li><a href="#"><span class="img2"> </span></a></li>
+					 <li><a href="#"><span class="img3"> </span></a></li>
+					 <li><a href="#"><span class="img4"> </span></a></li>
+					 <li><a href="#"><span class="img5"> </span></a></li>
+					 <li><a href="#"><span class="img6"> </span></a></li>
+				 </div>
+			 </div> -->
+			<!--  <div class="col-md-4 room-sec">
+				 <img src="images/pic5.jpg" alt="" style="width:365px;height:245px"/>
+				 <h4>Supperior Single Room</h4>
+				 <p></p>
+				 <div class="items">
+					 <li><a href="#"><span class="img1"> </span></a></li>
+					 <li><a href="#"><span class="img2"> </span></a></li>
+					 <li><a href="#"><span class="img3"> </span></a></li>
+					 <li><a href="#"><span class="img4"> </span></a></li>
+					 <li><a href="#"><span class="img5"> </span></a></li>
+					 <li><a href="#"><span class="img6"> </span></a></li>
+				 </div> -->
+			 </div> 
+			 		<div id="dialog" title="Basic dialog">
+  						<p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+					</div>
+ 
+				<!-- <button id="opener">Open Dialog</button> -->
+			 
+
+			 <div class="col-md-4 room-sec" id="suite">
+			 	 <div class="caption">
+					<span>&#8377; 2500</span>
+					<a href="contact.html">Price / (1 Day/Night)</a>
+				 </div>
+				 <img src="images/pic1.jpg" alt="" class="picimages" id="dialog"/>
+				 <h4>Suite Room</h4>
+				 <p>Retreat to Tower 3 in a 39-square metre space with limited views at a good value. Deluxe Room with City View guarantees a piece of Malur's best view.</p>
+				 <div class="items">
+					 <li><a href="#"><span class="img1"> </span></a></li>
+					 <li><a href="#"><span class="img2"> </span></a></li>
+					 <li><a href="#"><span class="img3"> </span></a></li>
+					 <li><a href="#"><span class="img4"> </span></a></li>
+					 <li><a href="#"><span class="img5"> </span></a></li>
+					 <li><a href="#"><span class="img6"> </span></a></li>
+				 </div>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!---->
+<div class="fotter">
+	 <div class="container">
+		 <h3>143 City Located Hotels World Wide</h3>
+		 <h4>"Hospitality, Quality & Good Location. We only provide you with the best services" </h4>
+		 <i class="man"></i>
+	 </div>
+</div>
+<!---->
+<div class="fotter-info">
+	  <div class="container">
+	      <div class="col-md-5 details">
+			 <div class="hotel-info">
+				 <h4>ABOUT THIS HOTEL</h4>
+				 <p>RG Hotels and Resort awaits you to offer its warm and friendly hospitality.if your choice is comfort at a reasonable price, come let us show you our care for your simple and most extravagant desires.</p>
+				 <p>RG Hotels and Resort presents the ideal environment for stay, entertainment,meeting or a wedding ceremony and the restaurant featuring contemporary authentic indian food.</p>
+			 </div>
+			 <div class="news">
+				 <h4>LATEST NEWS</h4>
+				 <h5>Grand Hotel Joins Deluxe Hotels</h5>
+				 <a href="#">15 AUG</a>
+				 <h5>Happy Chirstmas To Everyone</h5>
+				 <a href="#">15 AUG</a>
+				 <h5>Best Places To Visit 2014</h5>
+				 <a href="#">15 AUG</a>
+				 <h5>Various Offers</h5>
+				 <a href="#">15 AUG</a>		
+			 </div>
+				<div class="clearfix"></div>
+		 </div>
+		 <div class="col-md-7 details">
+			 <div class="join">
+				 <h4>JOIN DELUXE HOTELS</h4>
+				 <p>RG Hotels RG Hotels RG Hotels RG Hotels RG Hotels RG Hotels RG Hotels RG Hotels RG Hotels RG Hotels RG Hotels RG Hotels RG Hotels</p>
+				 <p>There is no costs or whatsoever so sign up today!</p>
+				 <a href="#">READ MORE</a>
+			 </div>
+			 <!-- <div class="member">
+			 <h4>MEMBERS AREA</h4>
+			 <form>
+			 <p>Username</p>
+			 <input type="text" placeholder="" required/>
+			 <p>Password</p>
+			 <input type="password" placeholder="" required/>		
+			 <input type="submit" value="LOGIN"/>
+			 </form>
+			 </div> -->
+			 <div class="clearfix"></div>
+		 </div>
+		 <div class="clearfix"></div>
+	  </div>
+	 <h6>Template by <a href="">CRAM SOFT</h6>	  
+</div>
+<!---->
+
+</body>
+</html>
